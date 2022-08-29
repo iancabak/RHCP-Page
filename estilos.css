@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(imagenes/gif.gif);
+    font-family: 'Poppins', sans-serif;
+    background-size: cover;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: center;
+    list-style: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgb(253, 253, 253);
+}
+
+.lista{
+    margin-left: 0.5%;
+}
+
+.boton{
+    margin-left: 2.5%;
+    margin-right: 2%;
+}
+
+.logored{
+    width: 20%;
+    margin-left: 5%;
+}
+
+.album{
+    text-decoration: none;
+    color: black;
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.boton1texto{
+    text-decoration: none;
+    color: white;
+    font-size: 200%;
+}
+
+.boton1{
+    background-color: black;
+    width: 150%;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.boton1titulo{
+    padding: 1%;
+    color: white;
+}
+
+h1{
+    font-size: 300%;
+    width: 60%;
+    padding-bottom: 5%;
+}
+
+span{
+    font-weight: 900;
+    color: red;
+}
+
+.parrafo{
+    font-size: 150%;
+    font-weight: 400;
+    color: black;
+    width: 60%;
+    padding-bottom: 5%;
+    
+}
+
+.boton2{
+    width: 50%;
+    border: white;
+    border-radius: 50px;
+    margin-left: 2.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.boton2titulo{
+    background-color: red;
+    border-radius: 50px;
+    padding: 2%;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+
+.imagen{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+}
